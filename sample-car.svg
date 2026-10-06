@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" role="img" aria-labelledby="title desc">
+  <title id="title">Sample blue sports coupe</title>
+  <desc id="desc">Original vector illustration of a blue sports car in side view.</desc>
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a5d5f3"/>
+      <stop offset=".35" stop-color="#4d9dd0"/>
+      <stop offset=".72" stop-color="#24618f"/>
+      <stop offset="1" stop-color="#183c5b"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#c7e7f4"/>
+      <stop offset=".28" stop-color="#456d86"/>
+      <stop offset="1" stop-color="#172a39"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f5fbff"/>
+      <stop offset=".5" stop-color="#8799a7"/>
+      <stop offset="1" stop-color="#34434f"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-100%" width="140%" height="300%">
+      <feGaussianBlur stdDeviation="15"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="500" cy="407" rx="365" ry="24" fill="#030609" opacity=".56" filter="url(#shadow)"/>
+  <path d="M137 366c16-30 51-48 100-58l116-25 85-85c24-23 57-35 97-36l100-2c42 0 71 11 104 40l91 80c31 5 56 19 68 44l19 40-5 31-40 17H153l-20-20z" fill="url(#body)" stroke="#b6def4" stroke-opacity=".6" stroke-width="4"/>
+  <path d="m389 272 66-66c20-20 46-29 80-30l61-1-3 97z" fill="url(#glass)" stroke="#c0deee" stroke-opacity=".8" stroke-width="4"/>
+  <path d="m608 175 28 1c34 1 57 11 84 35l69 61-177 1z" fill="url(#glass)" stroke="#c0deee" stroke-opacity=".8" stroke-width="4"/>
+  <path d="m593 178-3 94" fill="none" stroke="#bad8e9" stroke-opacity=".65" stroke-width="5"/>
+  <path d="m275 307 102-24 373-2c76 0 111 17 137 51l-23 8H186c18-17 46-28 89-33z" fill="#8ec6e7" opacity=".38"/>
+  <path d="M148 339c34-18 67-23 105-24m614 4c38 7 59 20 76 39" fill="none" stroke="#d8efff" stroke-opacity=".7" stroke-width="4"/>
+  <path d="m139 365 62 1 8 30-57 4-24-18z" fill="#f4fbff"/>
+  <path d="m864 355 39 8 18 21-54 4z" fill="#ff786c"/>
+  <path d="M244 375h526" fill="none" stroke="#162d40" stroke-width="8" opacity=".7"/>
+  <path d="m323 376 8 28m348-28-7 28" fill="none" stroke="#c1e2f5" stroke-opacity=".65" stroke-width="4"/>
+  <path d="m356 367 29-1m313-3 31 3" fill="none" stroke="#e7f6ff" stroke-opacity=".65" stroke-width="4"/>
+  <path d="M181 338h50m600-4h48" fill="none" stroke="#e6f6ff" stroke-opacity=".55" stroke-width="3"/>
+  <g>
+    <circle cx="310" cy="383" r="62" fill="#101820" stroke="#526372" stroke-width="5"/>
+    <circle cx="310" cy="383" r="43" fill="url(#rim)" stroke="#d8e2e8" stroke-width="3"/>
+    <circle cx="310" cy="383" r="13" fill="#344957"/>
+    <path d="M310 343v27m0 26v27m40-40h-27m-26 0h-27m28-28 19 19m-19 19-19 19m47-57-19 19m19 19-19 19" stroke="#e7edf1" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="310" cy="383" r="5" fill="#a8bac5"/>
+  </g>
+  <g>
+    <circle cx="735" cy="383" r="62" fill="#101820" stroke="#526372" stroke-width="5"/>
+    <circle cx="735" cy="383" r="43" fill="url(#rim)" stroke="#d8e2e8" stroke-width="3"/>
+    <circle cx="735" cy="383" r="13" fill="#344957"/>
+    <path d="M735 343v27m0 26v27m40-40h-27m-26 0h-27m28-28 19 19m-19 19-19 19m47-57-19 19m19 19-19 19" stroke="#e7edf1" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="735" cy="383" r="5" fill="#a8bac5"/>
+  </g>
+  <path d="M188 420h650" stroke="#9eb4c4" stroke-opacity=".18" stroke-width="2"/>
+</svg>
